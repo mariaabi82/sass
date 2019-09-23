@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+body {
+  margin: 0; }
+
+nav {
+  height: 100px;
+  display: flex;
+  background-color: #7452a3;
+  color: #99f7e2;
+  justify-content: space-between; }
+  nav .nav-text {
+    margin-top: 40px;
+    margin-left: 150px;
+    height: 45px;
+    width: 175px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 36px; }
+  nav .nav-img {
+    margin-top: 40px;
+    margin-right: 150px; }
+
+header {
+  margin-top: 0px;
+  padding-top: 200px;
+  padding-left: 150px;
+  padding-right: 450px;
+  background-color: #7452a3;
+  height: 1000px; }
+  header h1 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 64px;
+    line-height: 1.5;
+    color: #99f7e2; }
+  header p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2;
+    color: #ffffff; }
+
+main {
+  background-color: #ffffff;
+  height: 1000px;
+  display: flex;
+  align-items: center; }
+  main .left-box {
+    height: 517px;
+    width: 802px;
+    margin-top: 250px;
+    margin-bottom: 255px; }
+  main .right-box {
+    background-color: #f5f3f8;
+    margin-top: 143px;
+    margin-bottom: 147px; }
+    main .right-box h2 {
+      color: #7452a3;
+      font-family: "Libre Baskerville", serif;
+      font-size: 46px; }
+    main .right-box p {
+      color: #060606;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 18px; }
+    main .right-box a:link, main .right-box :visited, main .right-box :hover, main .right-box :active {
+      color: #99f7e2;
+      background-color: transparent;
+      text-decoration: none; }

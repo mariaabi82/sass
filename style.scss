@@ -1,0 +1,104 @@
+$color1: #7452a3;
+$color2: #99f7e2;
+$color3: #ffffff;
+$distance-nav-top: 40px;
+$distance-sides: 150px;
+$nav-height: 100px;
+$sections-height: 1000px;
+$distance-top: 250px;
+$distance-bottom: 255px;
+$small-distance-top: 143px;
+$small-distance-bottom: 147px;
+$font-titles: 'Libre Baskerville', serif;
+$font-p: 'Source Sans Pro', sans-serif;
+$size-p: 18px;
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+
+body {
+    margin: 0;
+
+}
+
+nav {
+    height: $nav-height;
+    display: flex;
+    background-color:$color1;
+    color: $color2;
+    justify-content: space-between;
+
+    .nav-text {
+        margin-top: $distance-nav-top;
+        margin-left: $distance-sides;
+        height: 45px;
+        width: 175px;
+        font-family: $font-p;
+        font-size: 36px;
+    }
+
+    .nav-img {
+        margin-top: $distance-nav-top;
+        margin-right: $distance-sides;
+       
+    }
+}
+
+header {
+    margin-top: 0px;
+    padding-top: 200px;
+    padding-left: $distance-sides;
+    padding-right: 450px;
+    background-color:$color1;
+    height: $sections-height;
+    h1 {
+        font-family: $font-titles;
+        font-size: 64px;
+        line-height: 1.5;
+        color: $color2;
+    }
+    p {
+        font-family: $font-p;
+        font-size: $size-p;
+        font-weight: 300;
+        line-height: 2;
+        color: $color3;
+    }
+}
+
+main {
+    background-color:$color3;
+    height: $sections-height;
+    display: flex;
+    align-items: center;
+
+    .left-box{
+        height: 517px;
+        width: 802px;
+        margin-top: $distance-top;
+        margin-bottom: $distance-bottom;
+    }
+    .right-box{
+        background-color: #f5f3f8;
+        margin-top: $small-distance-top;
+        margin-bottom: $small-distance-bottom;
+
+        h2 {
+            color: $color1;
+            font-family: $font-titles;
+            font-size: 46px;
+        }
+        p {
+            color: #060606;
+            font-family: $font-p;
+            font-size: $size-p;
+        }
+        a:link, :visited, :hover, :active {
+            color: $color2;
+            background-color: transparent;
+            text-decoration: none;
+        }
+    }
+
+}
